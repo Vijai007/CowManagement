@@ -1,5 +1,14 @@
 {
+  "name": "cow-management-system",
+  "version": "2.0.0",
+  "description": "Cow Management System - Full Stack with SQLite Database",
+  "scripts": {
+    "start": "cd server && node server.js",
+    "dev": "cd server && npx nodemon server.js",
+    "migrate": "node server/migrate.js"
+  },
   "dependencies": {
+    "canvas": "^3.2.2",
     "pptxgenjs": "^4.0.1"
   }
 }
